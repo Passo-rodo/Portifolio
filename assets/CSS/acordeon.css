@@ -47,12 +47,12 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/assets/icons/mais.svg);
+    background-image: url(../icons/mais.svg);
     transition: .35s;
 }
 
 .acordeon.open .trigger::after {
-    background-image: url(/assets/icons/menos.svg);
+    background-image: url(../icons/menos.svg);
 }
 
 .acordeon .content {

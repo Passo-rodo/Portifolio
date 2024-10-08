@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Halant';
-    src: url(/assets/fonts/Halant-Regular.ttf)
+    src: url(../fonts/Halant-Regular.ttf)
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 
 .main::before {
     content: '';
-    background-image: url(/assets/icons/back.svg);
+    background-image: url(../icons/back.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 300vh;

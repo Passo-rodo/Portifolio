@@ -48,19 +48,19 @@
 }
 
 .information .user::before {
-    background-image: url(/assets/icons/user.svg);
+    background-image: url(../icons/user.svg);
 }
 
 .information .localiza::before {
-    background-image: url(/assets/icons/localiza.svg);
+    background-image: url(../icons/localiza.svg);
 }
 
 .information .tel::before {
-    background-image: url(/assets/icons/tel.svg);
+    background-image: url(../icons/tel.svg);
 }
 
 .information .mail::before {
-    background-image: url(/assets/icons/mail.svg);
+    background-image: url(../icons/mail.svg);
 }
 
 @media only screen and (min-width: 768px) {
