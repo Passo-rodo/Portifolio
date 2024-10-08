@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+    font-family: 'Halant';
+    src: url(/assets/fonts/Halant-Regular.ttf)
+}
+
+body {
+    background-color: black;
+    color: blanchedalmond;
+}
+.main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid blanchedalmond;
+    border-radius: 1rem;
+}
+
+.main::before {
+    content: '';
+    background-image: url(/assets/icons/back.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300vh;
+    height: 300vb;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+}
